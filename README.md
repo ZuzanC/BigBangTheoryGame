@@ -16,3 +16,14 @@ Game rules in diagram:
 - **Tailwind CSS**: For styling, **Tailwind CSS** is used to create a clean, responsive, and modern design. Tailwind's utility-first approach allows for rapid customization and flexibility in the layout and design of the game interface.
 
 - **Session Management (Client-Side)**: **sessionStorage** is utilized to keep track of the user's score and the computer's score during the session. The counters reset whenever the user refreshes or closes the browser tab. 🔄
+
+## ⚙️ How to Run the Game
+
+1. **Clone or Download the Repo**  
+   Clone or download the repository. Ensure you have the required version of **Node.js** installed on your machine.
+2. **Start the server**
+   Open the terminal inside your code editor and run this command: **node app.js**
+3.**Open your browser**
+   The game runs at port 4001 and you can access it by visiting this url **http://localhost:4001/**
+
+   
