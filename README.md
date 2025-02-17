@@ -1,4 +1,4 @@
-# BingBangTheoryGame
+# BigBangTheoryGame
 
 ![image](https://github.com/user-attachments/assets/30dbfbe9-2b31-44ff-85f1-d845940beb48)
 
