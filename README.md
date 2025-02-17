@@ -24,8 +24,10 @@ Game rules in diagram:
 
 1. **Clone or Download the Repo**  
    Clone or download the repository. Ensure you have the required version of **Node.js** installed on your machine.
-2. **Start the server**
+   
+3. **Start the server**
    Open the terminal inside your code editor and run this command: **node app.js**
+   
 3.**Open your browser**
    The game runs at port 4001 and you can access it by visiting this url **http://localhost:4001/**
 
