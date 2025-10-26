@@ -19,19 +19,19 @@
   </head>
   <body
     class="flex flex-col justify-center items-center h-screen bg-gradient-to-r from-green-400 to-blue-500 relative">
-    <div class="flex w-3/6 justify-between">
+    <div class="flex w-5/6 md:w-3/6 justify-between">
       <p class="text-2xl">Computer: <span id="counter-pc"></span></p>
       <p class="text-2xl">User: <span id="counter-user"></span></p>
     </div>
-    <h1 id="title" class="text-6xl" style="font-family: Sigmar">
+    <h1 id="title" class="text-6xl text-center" style="font-family: Sigmar">
       Welcome Stranger
     </h1>
     <h2 class="text-3xl">Choose your weapon!</h2>
-    <div class="text-xl flex w-3/6 justify-between my-3">
+    <div class="text-xl flex flex-row justify-between md:w-5/6 lg:w-6/12 my-3">
       <div class="text-center">
         <button
           onclick='playGame("rock")'
-          class="p-6 rounded-full border-4 border-blue-700 bg-blue-500">
+          class="p-2 md:p-6 rounded-full border-4 border-blue-700 bg-blue-500">
           <i
             class="fa-regular fa-hand-back-fist fa-2xl"
             style="color: #63e6be"></i>
@@ -41,7 +41,7 @@
       <div class="text-center">
         <button
           onclick='playGame("paper")'
-          class="p-6 rounded-full border-4 border-blue-700 bg-blue-500">
+          class="p-2 md:p-6 rounded-full border-4 border-blue-700 bg-blue-500">
           <i class="fa-regular fa-hand fa-2xl" style="color: #63e6be"></i>
         </button>
         <p>Paper</p>
@@ -49,7 +49,7 @@
       <div class="text-center">
         <button
           onclick='playGame("scissors")'
-          class="p-6 rounded-full border-4 border-blue-700 bg-blue-500">
+          class="p-2 md:p-6 rounded-full border-4 border-blue-700 bg-blue-500">
           <i
             class="fa-regular fa-hand-scissors fa-2xl"
             style="color: #63e6be"></i>
@@ -59,7 +59,7 @@
       <div class="text-center">
         <button
           onclick='playGame("lizard")'
-          class="p-6 rounded-full border-4 border-blue-700 bg-blue-500">
+          class="p-2 md:p-6 rounded-full border-4 border-blue-700 bg-blue-500">
           <i
             class="fa-regular fa-hand-lizard fa-2xl"
             style="color: #63e6be"></i>
@@ -69,14 +69,14 @@
       <div class="text-center">
         <button
           onclick='playGame("spock")'
-          class="p-6 rounded-full border-4 border-blue-700 bg-blue-500">
+          class="p-2 md:p-6 rounded-full border-4 border-blue-700 bg-blue-500">
           <i class="fa-regular fa-hand-spock fa-2xl" style="color: #63e6be"></i>
         </button>
         <p>Spock</p>
       </div>
     </div>
 
-    <p id="animation" class="animate-pulse text-xl font-semibold uppercase text-blue-700 mt-6 absolute bottom-0 mb-8" hidden>Computer choosing the weapon</p>
+    <p id="animation" class="animate-pulse text-xl font-semibold uppercase text-blue-700 mt-6 absolute bottom-0" hidden>Computer choosing the weapon</p>
 
     <p id="result" class="text-2xl absolute bottom-0 mb-8" hidden></p>
 
